@@ -79,7 +79,7 @@
 | B (Число 2) | `b`                 | `int`        | 
 | C (Число 3) | `c`                 | `int`        |
 | D (Число 4) | `d`                 | `int`        | 
-| Массив      | `sides`             | `Integer`    | 
+| Массив      | `sides`             | `int`        | 
 | K (Ответ)   | `k`                 | `int`        | 
 ### 4. Алгоритм
 
@@ -186,7 +186,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         // Создаем массив типа Integer для дальнейшей сортировки чисел по возрастанию
-        Integer[] sides = new Integer[4];
+        int[] sides = new int[4];
         
         // Вводим стороны четырех квадратов A, B, C, D
         sides[0] = in.nextInt();
@@ -198,10 +198,10 @@ public class Main {
         Arrays.sort(sides);
         
         // Создаем переменные типа Integer и записываем в них стороны квадратов
-        Integer a = sides[0];
-        Integer b = sides[1];
-        Integer c = sides[2];
-        Integer d = sides[3];
+        int a = sides[0];
+        int b = sides[1];
+        int c = sides[2];
+        int d = sides[3];
         
         // Создаем переменную типа Int равную 0 для подсчета
         int k = 0;
