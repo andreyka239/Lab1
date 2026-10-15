@@ -183,7 +183,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        // Создаем массив типа Integer для дальнейшей сортировки чисел по возрастанию
+        // Создаем массив типа Int для дальнейшей сортировки чисел по возрастанию
         int[] sides = new int[4];
         
         // Вводим стороны четырех квадратов A, B, C, D
@@ -195,7 +195,7 @@ public class Main {
         // Сортируем стороны по возрастанию
         Arrays.sort(sides);
         
-        // Создаем переменные типа Integer и записываем в них стороны квадратов
+        // Создаем переменные типа Int и записываем в них стороны квадратов
         int a = sides[0];
         int b = sides[1];
         int c = sides[2];
